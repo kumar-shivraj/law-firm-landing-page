@@ -1,0 +1,45 @@
+.card
+{
+    width: 32%;
+    height: auto;
+    /* border: 2px solid red; */
+    background-color: #3e3e3e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.iconBox
+{
+    width: 60px;
+    height: 60px;
+    /* border: 2px solid red; */
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card h2
+{
+    margin: 20px 0;
+    font-size: 1.3rem;
+}
+.card p
+{
+    margin: 20px 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: .4px;
+    word-spacing: .8px;
+}
+.card button
+{
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 50px;
+    background-color: #E3B748;
+    font-weight: 700;
+    font-size: .8rem;
+    cursor: pointer;
+}

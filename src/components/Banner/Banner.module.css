@@ -1,0 +1,114 @@
+.wrapper {
+  display: flex;
+  /* margin-top: 3rem; */
+  height: calc(100vh - 53px);
+  background-color: #000000;
+}
+
+.bannerText {
+  width: 55%;
+  /* border: 3px solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  font-size: 66px;
+  font-weight: 400;
+  color: var(--color-white);
+}
+
+.header span {
+  font-size: 66px;
+  font-weight: 700;
+  color: var(--color-white);
+  line-height: 6rem;
+}
+
+.para_text
+{
+  color: #ffffff;
+  opacity: 40%;
+  margin-top: 30px;
+  line-height: 1.5rem;
+  letter-spacing: .5px;
+  word-spacing: 2px;
+  font-size: 1.1rem;
+}
+
+
+/* code for email box  */
+
+.emailBox
+{
+  height: auto;
+  min-height: 70px;
+  width: max-content;
+  /* border: 2px solid red; */
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2d2d2d;
+  margin-top: 60px;
+  padding: 2px 2px;
+  padding-left: 20px;
+}
+
+.emailBox input
+{
+  height: 95%;
+  border-radius: 50px;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #BDBDBD;
+  font-size: 1rem;
+}
+
+.emailBox button
+{
+  height: 95%;
+  border-radius: 50px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #E3B748;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+
+
+/* code for banner image  */
+.bannerImage {
+    width: 45%;
+    /* border: 3px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.img_back {
+  height: 80%;
+  width: 90%;
+  background-color: #E3B748;
+  /* position: absolute;
+  bottom: 0;
+  left: 10%; */
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.bannerImg {
+    /* object-fit: cover; */
+    height: 110%;
+    width: auto;
+    position: absolute;
+    display: block;
+    bottom: -5px;
+}

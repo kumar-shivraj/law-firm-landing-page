@@ -1,0 +1,25 @@
+.wrapper
+{
+    height: auto;
+    /* border: 2px solid red; */
+    /* margin: 100px 0; */
+    padding: 100px 0;
+    /* background-color: red; */
+}
+
+.wrapper h1
+{
+    text-align: center;
+}
+
+.card_rapper
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    /* border: 2px solid red; */
+    flex-wrap: wrap;
+    gap: 20px;
+}

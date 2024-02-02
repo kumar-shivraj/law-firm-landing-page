@@ -1,0 +1,19 @@
+.wrapper
+{
+    height: auto;
+    /* border: 2px solid red; */
+    padding: 20px 0;
+}
+
+.wrapper h1
+{
+    text-align: center;
+}
+
+.card_rapper
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}

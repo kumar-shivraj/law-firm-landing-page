@@ -1,0 +1,37 @@
+.intro_wrapper {
+    height: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    padding: 100px 0;
+}
+.intro_left {
+    width: 50%;
+    /* border: 2px solid red; */
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.intro_right {
+    width: 50%;
+    /* border: 2px solid red; */
+    border-left: 2px solid #eeeeee;
+    padding: 20px 0 20px 50px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.intro_right h1{
+    
+}
+.intro_right p{
+    font-size: 1rem;
+    line-height: 1.7rem;
+    margin-top: 10px;
+    letter-spacing: .8px;
+    word-spacing: 1px;
+}

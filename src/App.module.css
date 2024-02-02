@@ -1,0 +1,31 @@
+.container
+{
+    width: 1240px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #000;
+}
+
+
+.container_fluid{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #000;
+}
+
+.container_1
+{
+    width: 1240px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #2b2b2b;
+}
+
+
+.container_fluid_1{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #2b2b2b;
+}
